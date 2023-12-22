@@ -1,0 +1,1472 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/2113210229/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62085
+Successfully changed project path to: D:/2113210229/My project
+D:/2113210229/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8320] Host "[IP] 172.16.248.91 [Port] 0 [Flags] 2 [Guid] 709204511 [EditorId] 709204511 [Version] 1048832 [Id] WindowsEditor(7,A602COM4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8320] Host "[IP] 172.16.248.91 [Port] 0 [Flags] 2 [Guid] 709204511 [EditorId] 709204511 [Version] 1048832 [Id] WindowsEditor(7,A602COM4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2113210229/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A2000 12GB (ID=0x2571)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.2886
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002606 seconds.
+- Loaded All Assemblies, in  0.211 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.153 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 685ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (183.3 KB). Loaded Objects now: 4438.
+Memory consumption went from 153.2 MB to 153.0 MB.
+Total: 2.441000 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.055000 ms  DeleteObjects: 0.129000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2411452.817695 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_dirt_01.png
+  artifactKey: Guid(5aaae752e72cd40e7b3fd4a66682357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_dirt_01.png using Guid(5aaae752e72cd40e7b3fd4a66682357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee25afd2a8a7791ea57771c5401f264') in 0.096421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.627410 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_03.jpg
+  artifactKey: Guid(b89a2517f3ca540868b98333dffaef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_03.jpg using Guid(b89a2517f3ca540868b98333dffaef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed581246a31e09d3f08bdff737e4dbf') in 0.017385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.134052 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03.png
+  artifactKey: Guid(bb29b1945cd794751b284973b49e12a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03.png using Guid(bb29b1945cd794751b284973b49e12a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1422c745edf7ad3305982d804bfc24') in 0.021740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.820606 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_pebbles.jpg
+  artifactKey: Guid(d9bc61b9ae839da0d8aaef83d8043d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_pebbles.jpg using Guid(d9bc61b9ae839da0d8aaef83d8043d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a660a33f4b83dcccc43c2e87d29554') in 0.018706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.759645 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock.png
+  artifactKey: Guid(86c95a314d088f1a791edada5190a1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock.png using Guid(86c95a314d088f1a791edada5190a1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69966aa9577f1e9a9ac3eef9b6543ec8') in 0.015717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.733598 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles.jpg
+  artifactKey: Guid(43a8cebf68734c3d4a896da60dd13c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles.jpg using Guid(43a8cebf68734c3d4a896da60dd13c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a369a02afda218fe1ac48f9f62a2f86') in 0.016010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 175.467243 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03_normal.png
+  artifactKey: Guid(ef82a3fb98dc183a28253903aae8dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_moss03_normal.png using Guid(ef82a3fb98dc183a28253903aae8dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa94eab9e5d6617c1857d768fc238e6f') in 0.013326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.504051 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock_normal.png
+  artifactKey: Guid(26c8361caba48f4aba2af966c0d53e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_rock_normal.png using Guid(26c8361caba48f4aba2af966c0d53e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c976075581321d463530aa6cec29945a') in 0.029031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.086608 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles_normal.jpg
+  artifactKey: Guid(6be91ec3ba6eb6ecab654a01364e23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_pebbles_normal.jpg using Guid(6be91ec3ba6eb6ecab654a01364e23ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9573a3f5ab7085b2f91154f05cdde53e') in 0.012090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 59.164475 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_pebbles_normal.jpg
+  artifactKey: Guid(9a924b92d1a596aef9b2a072bd0d349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_pebbles_normal.jpg using Guid(9a924b92d1a596aef9b2a072bd0d349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75be4e885b5ebb5b95f8e4786029f411') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.272 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 708ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3948 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (156.1 KB). Loaded Objects now: 4447.
+Memory consumption went from 156.4 MB to 156.3 MB.
+Total: 2.545600 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.190900 ms MarkObjects: 1.956600 ms  DeleteObjects: 0.138800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.032692 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A.prefab
+  artifactKey: Guid(411d79dbbe4633332bf08419508ecdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A.prefab using Guid(411d79dbbe4633332bf08419508ecdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3063bfb41b815da7926a477194f661') in 0.935171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_D.prefab
+  artifactKey: Guid(5c8f8dde9e3fb58dda8f56008939d4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_D.prefab using Guid(5c8f8dde9e3fb58dda8f56008939d4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee368f9290cdab566228bf4ede6e86da') in 0.036319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E.prefab
+  artifactKey: Guid(f6208658c4d45bf5c944dd7806489932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E.prefab using Guid(f6208658c4d45bf5c944dd7806489932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eb9346bd507354b011dc1a77010607') in 0.030642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/Bone.fbx
+  artifactKey: Guid(61a60de4cfa7b124184947ca4a57ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/Bone.fbx using Guid(61a60de4cfa7b124184947ca4a57ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528bb08f7b6c01f3122b1b07bbda67c4') in 0.037516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D.prefab
+  artifactKey: Guid(261441bc3708ec7aa8a2c288c3fab3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D.prefab using Guid(261441bc3708ec7aa8a2c288c3fab3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0bb9e923fdc8d4403e07ccd6afcd50') in 0.029744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E.prefab
+  artifactKey: Guid(783170933d5c442f2a2ab32f0fb0502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E.prefab using Guid(783170933d5c442f2a2ab32f0fb0502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96f5f942ec11d75eff25bfa239ed42') in 0.032633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/HoverBoneGizmo.prefab
+  artifactKey: Guid(fbf7ad78b397b0749bb8132dfbc87f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/HoverBoneGizmo.prefab using Guid(fbf7ad78b397b0749bb8132dfbc87f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509735269e4dc94627c52c06ec3750cd') in 0.011796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C.prefab
+  artifactKey: Guid(67d3abe897c93a08e9593b0a183f2bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C.prefab using Guid(67d3abe897c93a08e9593b0a183f2bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98a4bd870054e66f3b49674fa5aefe6') in 0.209547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 81.125278 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage
+  artifactKey: Guid(699b139d106114f24ad4b1e7be5035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage using Guid(699b139d106114f24ad4b1e7be5035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8b9991e1e13a10c11e6c688916057') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.632793 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs
+  artifactKey: Guid(797a1e04bbc5e4b59a710049e4f94390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs using Guid(797a1e04bbc5e4b59a710049e4f94390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a73eeb00c2d9eae898fc8cedb1114b5') in 0.000301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.802680 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f26513b7d417bbb5441306deec71f5') in 0.299675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 11.596299 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfce397735ec1763a0ed8bee7b80c9d') in 0.026414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 3.679780 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620c937293fa7a46cf7f1afe8b90bcee') in 0.295639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 11.504024 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21b81e5776f774d5041ff87e1e845df') in 0.026779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.453894 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0140f365e73ccfd48417c2b88567654f') in 0.027760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 12.706413 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a210b7af97ed82a6666d1e3c7cd4cd7') in 0.050250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.646429 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1daefa7a471bb0d6c9caa2a5cc1712db') in 0.024661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 11.108357 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9016b389777bc56a577542eb980b21') in 0.024763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.411031 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc11adcf1a48789428f6d912452692e6') in 0.199533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 18.760177 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f665b0feef554e10e21a086d4918da0b') in 0.024600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.445321 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3548007c3f6f22e93d2468482c8286d') in 0.026282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.894225 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f080204012871e280ef17e03731dbe') in 0.044750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 25.463064 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1b61049ef0eb15eecb0c9c90a16442') in 0.316364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.270 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 703ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (233ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3948 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (155.9 KB). Loaded Objects now: 4495.
+Memory consumption went from 162.7 MB to 162.6 MB.
+Total: 2.468800 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.142700 ms MarkObjects: 1.959000 ms  DeleteObjects: 0.129800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.639919 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab
+  artifactKey: Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b369e8caa8fd9084f9cbeafa784f04') in 0.124722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.486 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.622 seconds
+Domain Reload Profiling: 11107ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (2335ms)
+		LoadAssemblies (2374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (8622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3948 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (156.1 KB). Loaded Objects now: 4498.
+Memory consumption went from 164.6 MB to 164.5 MB.
+Total: 2.361000 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.090400 ms MarkObjects: 1.953900 ms  DeleteObjects: 0.118900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.308 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 777ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (156.1 KB). Loaded Objects now: 4502.
+Memory consumption went from 166.9 MB to 166.7 MB.
+Total: 2.042800 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.641600 ms  DeleteObjects: 0.112600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 555.921016 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png
+  artifactKey: Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_linear.png using Guid(fc1ba24d4a4141d4d9e9ae0a0d3ecd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aed10d19200a8e20e1070d5742ead0') in 0.045382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003716 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/atlas.png
+  artifactKey: Guid(bd85f1c5d5ef4c19f98cffa8baf6b620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/atlas.png using Guid(bd85f1c5d5ef4c19f98cffa8baf6b620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b9d90aa293f0ae66f39185a74017f2') in 0.016179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_D_Textures/atlas.png
+  artifactKey: Guid(d5eb9678ba4201e13ae1ae6dc2b0ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_D_Textures/atlas.png using Guid(d5eb9678ba4201e13ae1ae6dc2b0ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d1f853010538ea033eaa75b7b5809a') in 0.095892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/atlas.png
+  artifactKey: Guid(544c853180114ea41ab76d418d8d056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/atlas.png using Guid(544c853180114ea41ab76d418d8d056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e2b0ca98339710db98f3d659034539') in 0.023407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard.png
+  artifactKey: Guid(130eb39ec39b053438115b996cb66725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard.png using Guid(130eb39ec39b053438115b996cb66725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1495bbfd68f66cbbef97b6c7ca481f') in 0.011922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard.png
+  artifactKey: Guid(888466df77cc4501baaa63695cc8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_A_Textures/billboard.png using Guid(888466df77cc4501baaa63695cc8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158847ba3eeb840d3a593ada88e022c3') in 0.013154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard.png
+  artifactKey: Guid(0fa216364cadfa55f9b83ff5c84455a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard.png using Guid(0fa216364cadfa55f9b83ff5c84455a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9a3c9f855050e9c3741c69a3c57256') in 0.011230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/bark.png
+  artifactKey: Guid(18d30a9dfdc155148988349ac2e3f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_B_Textures/bark.png using Guid(18d30a9dfdc155148988349ac2e3f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb3ecd675e0716d849eebc69fd826a4') in 0.010815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/atlas.png
+  artifactKey: Guid(1c55b5fe909bc4c72ac7414e4dd607c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/atlas.png using Guid(1c55b5fe909bc4c72ac7414e4dd607c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f705b6fd9c4ae601aa3a75e56ea1d5ce') in 0.012204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/atlas.png
+  artifactKey: Guid(250b79741c77715909633cbf8dc0a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/atlas.png using Guid(250b79741c77715909633cbf8dc0a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661783959abd3ae4b8ec596bf4e3ae6c') in 0.011398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/bark.png
+  artifactKey: Guid(a387cf705b559173ea1d19256ec451da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/bark.png using Guid(a387cf705b559173ea1d19256ec451da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da10001f21bc0039783c3b48b5ad9a2') in 0.012345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/bark.png
+  artifactKey: Guid(6248f9b244ab752ec9ffe194e4887bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/bark.png using Guid(6248f9b244ab752ec9ffe194e4887bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853e9c052c5e17a6855356760f2fe76') in 0.012697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard.png
+  artifactKey: Guid(c75e397db01a62fe6bfd7b610573c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/billboard.png using Guid(c75e397db01a62fe6bfd7b610573c7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ec30fe07fc34264738eca5729ca202') in 0.015168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/atlas.png
+  artifactKey: Guid(6ce302ff68d31080aa80f9b1ea980cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/atlas.png using Guid(6ce302ff68d31080aa80f9b1ea980cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a26186a00152a569d1e7b389023caf1') in 0.013258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/billboard.png
+  artifactKey: Guid(59fecf9c28dcab7fd8fb66503963b428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_C_Textures/billboard.png using Guid(59fecf9c28dcab7fd8fb66503963b428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39963db5b43a0e75fe43cfa1c2adef5a') in 0.010829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/bark.png
+  artifactKey: Guid(9df63ace9905f07c6938cc3ae22018a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/bark.png using Guid(9df63ace9905f07c6938cc3ae22018a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a463e697255caef251f37d91970c03') in 0.012131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/ballroom_1k.exr
+  artifactKey: Guid(cb5229eb8a46ed14daf2be5f1292b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/ballroom_1k.exr using Guid(cb5229eb8a46ed14daf2be5f1292b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004c00624c78811c504f7b57787f02fd') in 0.026693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/bark.png
+  artifactKey: Guid(f9dac1fa20b5bcd0b942effa248c982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/bark.png using Guid(f9dac1fa20b5bcd0b942effa248c982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e27c5c0656672ca451bdf68da7cb9d5') in 0.012739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/atlas.png
+  artifactKey: Guid(32de45226610d2cdb8e12510b64bff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/atlas.png using Guid(32de45226610d2cdb8e12510b64bff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d730cd20e447fcc81d36528bfcf0bba') in 0.015855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard.png
+  artifactKey: Guid(2b2cfc918f146da2db7a6e656422a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard.png using Guid(2b2cfc918f146da2db7a6e656422a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5734568299cd0c3e3a9280b04eb906') in 0.013480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/bark.png
+  artifactKey: Guid(e4df050e4f046c79eab68eba2b80476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/bark.png using Guid(e4df050e4f046c79eab68eba2b80476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8e13f25a4f4d297a148fdd91460904') in 0.011441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/atlas.png
+  artifactKey: Guid(a6dcad8ee2a44de6fad7a1986d72c00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/atlas.png using Guid(a6dcad8ee2a44de6fad7a1986d72c00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141aa2c67b03394392ae6b2ca19e9ae') in 0.013323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/billboard.png
+  artifactKey: Guid(953f471538c4109b8aa0c3adc9386da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/billboard.png using Guid(953f471538c4109b8aa0c3adc9386da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4116bc1512064629015c9fe37ae8c768') in 0.013961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard.png
+  artifactKey: Guid(491cdb5bee465a531b5073b3e7c6df19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_D_Textures/billboard.png using Guid(491cdb5bee465a531b5073b3e7c6df19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1ecc20d5f3e060e268e91ba5d8b1dc') in 0.012938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png
+  artifactKey: Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Tests/UniGLTF/4x4_gray_import_as_srgb.png using Guid(0f7acf68f1798ae48a5505519abac457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fc8020326a43c00f0d6e9b621be57b') in 0.005903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.085307 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard_normal.png
+  artifactKey: Guid(52f61a978ba60869e84ec55958aea404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/billboard_normal.png using Guid(52f61a978ba60869e84ec55958aea404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5044f91898d0661a13f710fb8c0151c6') in 0.025860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard_normal.png
+  artifactKey: Guid(0ee36352c91e1fb1087c8199c9be2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_B_Textures/billboard_normal.png using Guid(0ee36352c91e1fb1087c8199c9be2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dbaf38b7fed2ca545704f43f738e2c') in 0.015978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard_normal.png
+  artifactKey: Guid(bbb9b407c59b57e708adbdfb8803749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_B_Textures/billboard_normal.png using Guid(bbb9b407c59b57e708adbdfb8803749f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d05567a913189917de910584172235') in 0.039274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard_normal.png
+  artifactKey: Guid(f612cd4f9e52e3384b034a6dc9104b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/billboard_normal.png using Guid(f612cd4f9e52e3384b034a6dc9104b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7491547a5454f827b70b01034f97189d') in 0.015835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard_normal.png
+  artifactKey: Guid(f89a789be1f4d8bb48031377cb610886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/billboard_normal.png using Guid(f89a789be1f4d8bb48031377cb610886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d36899755f16138170155395fee9038') in 0.011201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark.png
+  artifactKey: Guid(16268af0fafb9761b9d12b83ecf3b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/Bark/br_black_pine_bark.png using Guid(16268af0fafb9761b9d12b83ecf3b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b8b6bca16a819482f64ee790a8bb6') in 0.012653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.897991 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_01.jpg
+  artifactKey: Guid(c18478a6da1be4c3ead98c95909a392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_grass_01.jpg using Guid(c18478a6da1be4c3ead98c95909a392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df5ceac823a96dcf044d54449cae137') in 0.016192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038828 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_dirt_01.png
+  artifactKey: Guid(a59a3a21152c24fed93fe6b45a783726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/brocco_jg_wet_dirt_01.png using Guid(a59a3a21152c24fed93fe6b45a783726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fabdafda55b624a2b71097fa98a509') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Grass And Flowers Pack 1/Bush/Bush 6.png
+  artifactKey: Guid(9441c1d70a7b1ad45adbf887f14ec1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Bush/Bush 6.png using Guid(9441c1d70a7b1ad45adbf887f14ec1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781a59cc67025b7cb7fb603292a93b43') in 0.015332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020916 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Textures/CalibrationFloorLightDiffuse.png
+  artifactKey: Guid(4eaa43c4d7770fe708e4c7b884f09e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Textures/CalibrationFloorLightDiffuse.png using Guid(4eaa43c4d7770fe708e4c7b884f09e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3196c7a9807a7f1415cdb6d6ea3d746a') in 0.015640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 8.png
+  artifactKey: Guid(fd58086e8722f7f4cba185d299ae9d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 8.png using Guid(fd58086e8722f7f4cba185d299ae9d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398f53181d2814b7f0bd99b5648457ba') in 0.014997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.753851 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 11.png
+  artifactKey: Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 11.png using Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714e030beee5f6d1139ade600d4cb7c5') in 0.022388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 23.png
+  artifactKey: Guid(a649788266163034aa4b99623cae3fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 23.png using Guid(a649788266163034aa4b99623cae3fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66b87cd6a444154398831adc28a3ffd') in 0.014359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 25.png
+  artifactKey: Guid(853633ced50f73942ab3dfa915bc40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 25.png using Guid(853633ced50f73942ab3dfa915bc40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d41642c1deb6e6ef1edf301ebf1899') in 0.013258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 28.png
+  artifactKey: Guid(8a13b35641f16e44c89c897309bcdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 28.png using Guid(8a13b35641f16e44c89c897309bcdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ead93bd300d00de76789f2315abc0a') in 0.013709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 3.png
+  artifactKey: Guid(8e17f59bfe0f1e1419e3bc10630bc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 3.png using Guid(8e17f59bfe0f1e1419e3bc10630bc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a6496f3c9a388b2c681c8ffdfb628') in 0.012915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 6.png
+  artifactKey: Guid(7aa03bbf1145d80438111302e0139094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 6.png using Guid(7aa03bbf1145d80438111302e0139094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae763a9cc91c4015e842773e381fb02') in 0.012710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 33.png
+  artifactKey: Guid(de869416b57c19141b8de6d7fde89e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 33.png using Guid(de869416b57c19141b8de6d7fde89e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c20b8b3d4aa9f4da77b199015c3b28') in 0.013918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 22.png
+  artifactKey: Guid(cf239d877af81b843b958f6c5f758f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 22.png using Guid(cf239d877af81b843b958f6c5f758f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ec558fb1cb66f81146633d6179be0e') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 11.png
+  artifactKey: Guid(dc92af4c176c5f2458c3adbc09c77766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 11.png using Guid(dc92af4c176c5f2458c3adbc09c77766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d89d85955717d97c702c8d3689a9e8') in 0.012469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.782292 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr
+  artifactKey: Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr using Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9778ef3ee7efd025e95cc3efcbc9782d') in 0.016155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/normal_atlas.png
+  artifactKey: Guid(b7c229bbf36800ea4a3a41b8d4787c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/normal_atlas.png using Guid(b7c229bbf36800ea4a3a41b8d4787c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93678c9afb170dc585fee15830c789f8') in 0.009637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016789 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/normal_atlas.png
+  artifactKey: Guid(5bace8e3162308b45a5780c4f9534d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/normal_atlas.png using Guid(5bace8e3162308b45a5780c4f9534d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579a59a9931cedb32f890d8708af308b') in 0.008097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/normal_atlas.png
+  artifactKey: Guid(9af944cff028cb97b81db8418164534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/normal_atlas.png using Guid(9af944cff028cb97b81db8418164534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b269b1343f17f226c1648dabd69d979') in 0.007944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/normal_atlas.png
+  artifactKey: Guid(4a71837636d0567b8945a2dd9b295862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_C_Textures/normal_atlas.png using Guid(4a71837636d0567b8945a2dd9b295862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5964323b1f975bcc54a1e37903d9d597') in 0.006425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.967534 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/shadow.png
+  artifactKey: Guid(1420fc29b479b8aa7987905b4502850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_E_Textures/shadow.png using Guid(1420fc29b479b8aa7987905b4502850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eee2552df1f4cebd9482c57ff90b5b1') in 0.015840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Grass And Flowers Pack 1/Small Tree/Small Tree 4.png
+  artifactKey: Guid(493f6a5a5044c0c4ba0f79af81d56bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Small Tree/Small Tree 4.png using Guid(493f6a5a5044c0c4ba0f79af81d56bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba23fb2884eb12c1785b8b4f3081ca83') in 0.015087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Grass And Flowers Pack 1/Small Tree/Small Tree 10.png
+  artifactKey: Guid(119ecf9aab2358745897fd4cb46bb448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Small Tree/Small Tree 10.png using Guid(119ecf9aab2358745897fd4cb46bb448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b472e0bb157595a2322eb1a22b9f397') in 0.013178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/BroccoliJapaneseGardenTerrain.asset
+  artifactKey: Guid(f5cd09a9bbdc8cb59ad62cb51fb8dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/BroccoliJapaneseGardenTerrain.asset using Guid(f5cd09a9bbdc8cb59ad62cb51fb8dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec46650b4ad72de6bf54a80d2174236') in 0.039933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.216242 seconds.
+  path: Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/spruit_sunrise_1k.exr
+  artifactKey: Guid(e01f860a15768ec41be07e810596d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/spruit_sunrise_1k.exr using Guid(e01f860a15768ec41be07e810596d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b777ed23e23a0a4e6b6f9f8303b9f39b') in 0.018430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/translucency_gloss.png
+  artifactKey: Guid(14e088a391248c9918f9f7008afa562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A_Textures/translucency_gloss.png using Guid(14e088a391248c9918f9f7008afa562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbd6d416713999e5585103abc95f564') in 0.015032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/translucency_gloss.png
+  artifactKey: Guid(5b39d8ca8358a6068a2a8fe164b1df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_A_Textures/translucency_gloss.png using Guid(5b39d8ca8358a6068a2a8fe164b1df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b1a8af184923100c0720144d94534') in 0.006310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/translucency_gloss.png
+  artifactKey: Guid(eb188655124df06f0a48451d2fd97538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/BlackPineTree_E_Textures/translucency_gloss.png using Guid(eb188655124df06f0a48451d2fd97538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bbe690b058895a6d46c0291186fb64') in 0.006749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/translucency_gloss.png
+  artifactKey: Guid(dbe5ba3f00e195820b98bfcaacced9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_F_Textures/translucency_gloss.png using Guid(dbe5ba3f00e195820b98bfcaacced9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3f3994cb0ca1e21e50a802f90c81d') in 0.005788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/translucency_gloss.png
+  artifactKey: Guid(45060d2beb4a37f988befc09f7a7a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/JapaneseMapleTree_C_Textures/translucency_gloss.png using Guid(45060d2beb4a37f988befc09f7a7a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67056203a2874061fabaa6b94dea6e65') in 0.005709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.340 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.2 MB). Loaded Objects now: 4515.
+Memory consumption went from 170.7 MB to 169.6 MB.
+Total: 3.657500 ms (FindLiveObjects: 0.500300 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.341500 ms  DeleteObjects: 0.625500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1625.164036 seconds.
+  path: Assets/VRMShaders
+  artifactKey: Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMShaders using Guid(503ae90aee4d0224db69e4e74762223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ece253581b1c0d10c7c7fcfe7c330d6') in 0.002440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.089157 seconds.
+  path: Assets/Rocks and Boulders 2
+  artifactKey: Guid(6a2c2c65ea31ab64eb45722a9e3fc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2 using Guid(6a2c2c65ea31ab64eb45722a9e3fc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba19124246a4bf57846e2c8d5c9fcfc') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.968713 seconds.
+  path: Assets/Rocks and Boulders 2/Demo
+  artifactKey: Guid(8ac76fa221a4a734588b1b300835c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Demo using Guid(8ac76fa221a4a734588b1b300835c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74436d4a27c86268e493b565dd607f46') in 0.000326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.872540 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks
+  artifactKey: Guid(e2272ccdfc6870f4b962910707e21594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks using Guid(e2272ccdfc6870f4b962910707e21594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887554df6efa2dae29ee343fdfc40463') in 0.000342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.861787 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs
+  artifactKey: Guid(8e74734055c3cf64dbbb0f1793dc9764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs using Guid(8e74734055c3cf64dbbb0f1793dc9764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724eb069195d4e16b8b6ca4a98643303') in 0.000342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.776640 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup1.prefab
+  artifactKey: Guid(54a9cf01843431742a3126013891032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup1.prefab using Guid(54a9cf01843431742a3126013891032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5591debff927707537bb9df5ff220b53') in 0.230306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.102159 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup4.prefab
+  artifactKey: Guid(6b9fd6eae9eb0d546ae14cdaee6d1156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup4.prefab using Guid(6b9fd6eae9eb0d546ae14cdaee6d1156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bed42af9e64519ab179e929a750cdfb') in 0.020714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.830419 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup2.prefab
+  artifactKey: Guid(272f6ea372a7343499b5aa612014761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup2.prefab using Guid(272f6ea372a7343499b5aa612014761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394c0bc2b932d3ea2822f7dcb257a1e2') in 0.056148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6B.prefab
+  artifactKey: Guid(fb5464049dae54247bf24c0e536cd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6B.prefab using Guid(fb5464049dae54247bf24c0e536cd6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6159dd5438f99bc99227d8902ef7ca') in 0.024179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6A.prefab
+  artifactKey: Guid(ad1f5855a33f0694886cbd301d99cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6A.prefab using Guid(ad1f5855a33f0694886cbd301d99cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411d2b6d7fb183eaa0bbdce29d0af35d') in 0.026025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab
+  artifactKey: Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1A.prefab using Guid(d209be13548e70947bc39053977ce977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169bc862f7f3364d4005b605b4f3214') in 0.020466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock4A.prefab
+  artifactKey: Guid(5f36b57d675b1444cb2203b7a6cac6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock4A.prefab using Guid(5f36b57d675b1444cb2203b7a6cac6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1ebb44f98aa0ba98f70e39a02578c2') in 0.021040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
+  artifactKey: Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab using Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aa26b59878170754f07ca2b6ac0fe3') in 0.021380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab
+  artifactKey: Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup5.prefab using Guid(0c076a1a077b8b04aaa5c16a2af6d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e0af43fed12f7fe9f0c6240c52027c') in 0.019743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup5.prefab
+  artifactKey: Guid(f696a81957e80df439600b80ea8667ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup5.prefab using Guid(f696a81957e80df439600b80ea8667ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fcec74e0436710760050eaed11c40b') in 0.020760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock5A.prefab
+  artifactKey: Guid(27bfdb9a40efac94b969eaf77cea92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock5A.prefab using Guid(27bfdb9a40efac94b969eaf77cea92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d911dd50cf99fa286fa4603a800964') in 0.020591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab
+  artifactKey: Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup3.prefab using Guid(059c81de61f2d4e4cbe522492d0181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f679de46ec052f216b826aa9b6e3383') in 0.020118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup1.prefab
+  artifactKey: Guid(76075d4f24491b84eb0b4ac914362e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup1.prefab using Guid(76075d4f24491b84eb0b4ac914362e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d8e7b5d6c918e2ca8fe4a343f7ec9d') in 0.026918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock4B.prefab
+  artifactKey: Guid(55f94b3dfaaba26458dbf470efc8cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock4B.prefab using Guid(55f94b3dfaaba26458dbf470efc8cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b83882f2d4ae721b45cb0016ed3aa6') in 0.020307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab
+  artifactKey: Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab using Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a512f2e34b87e108561b5912b86ca3d') in 0.019179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6C.prefab
+  artifactKey: Guid(d9c3d22cdfbbcfd4f8d8019ff97a0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock6C.prefab using Guid(d9c3d22cdfbbcfd4f8d8019ff97a0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3256a9c8481bb9b272cbb79b6ad336') in 0.020020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock3.prefab
+  artifactKey: Guid(f282d9fb9b399dd4384b20aba08642fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock3.prefab using Guid(f282d9fb9b399dd4384b20aba08642fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66592f82f64d767daf5640a9e421257') in 0.023424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab
+  artifactKey: Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab using Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d09d6a2fd10f9fd328d7ea619fd6d4c') in 0.023008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab
+  artifactKey: Guid(977e7278d3486f1489724a6d226b9ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab using Guid(977e7278d3486f1489724a6d226b9ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f73fbc3081a2e74e310edaca004ed4') in 0.026194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
